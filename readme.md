@@ -4,6 +4,10 @@ Basic Usage:
 
 - Install docker & docker-compose (on windows use docker toolbox)
 - Clone this repo
+- set the permissions on the data & public folders (linux)
+  ```
+  chmod -R a+rw data && chmod -R a+rw public
+  ```
 - Run `docker-compose up` in the repo root
 
 Default Configuration:
